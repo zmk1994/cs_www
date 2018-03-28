@@ -1,0 +1,97 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    color:#666666;
+    text-decoration:none;
+}
+li a:hover{
+    color:#ea5434;
+    cursor:pointer;
+}
+
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+textarea {
+    resize: none;
+}
+
+/*防止拖动*/
+img {
+    border: 0;
+   display: block;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙*/
+table {
+    border-collapse: collapse;
+}
+
+body {
+    width: 100%;
+    height:auto;
+    color: #666;
+    background: #fff
+}
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+/*清除浮动代码*/ 
+.clear:after{display:block;clear:both;content:"";overflow:hidden;} 
+.clear{zoom:1} 
+.icon {
+    /* 通过设置 font-size 来改变图标大小 */
+    width: 3em; height: 3em;
+    /* 图标和文字相邻时，垂直对齐 */
+    vertical-align: -0.15em;
+    /* 通过设置 color 来改变 SVG 的颜色/fill */
+    fill: #000;
+    /* path 和 stroke 溢出 viewBox 部分在 IE 下会显示
+       normalize.css 中也包含这行 */
+    overflow: hidden;
+    font:2.0rem/40rem "";
+  }
+
+  html{
+      font-size: 10px;
+  }
+
+  .margin{
+    width: 1280px;
+    /* width: 128rem; */
+  
+    margin:0 auto;
+  }
+  
